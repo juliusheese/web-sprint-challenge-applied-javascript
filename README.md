@@ -26,15 +26,18 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
-1. What is the DOM?
+1. the document object model is an interface that treats an html document where each node is an object representing a part of the document. The DOM represents a document with a logical tree. Each branch of the tree ends in a node, and each node contains objects. You can change the structure, style or content of a document.
 
-2. What is an event?
 
-3. What is an event listener?
 
-4. Why would we convert a NodeList into an Array?
+2. An event is something that occurs usually with an interaction between the user and the html page. For example, it could be when a user clicks something, when a page is loaded, when a user presses a key, and etc. The events can be captured if they are executed by an event listener.]
 
-5. What is a component?
+
+3. The event listener attaches to a part like dom and activates when a particular event occurs. For example, if the event is a click, when a click occurs the event listener will be activated.
+
+4. We would do this in order to do specific array functions like .map and .reduce.
+
+5. Components allow you to use similar bits of code for multiple parts of the web page. It consists of three main technologies, Custom Elements, the Shadow DOM, and HTML templates
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -62,7 +65,7 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 Your finished project must include all of the following requirements:
 
-- [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the `index.html` file itself.
+- [x] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the `index.html` file itself.
 
 - [ ] Following the instructions in the `components/Header.js` file, create the Header.
 
